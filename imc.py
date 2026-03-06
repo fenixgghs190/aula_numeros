@@ -1,13 +1,13 @@
-idade = input('Digite sua idade: ')
-peso = input('Digite seu peso: ')
-altura = input('Digite sua altura: ')
-ano = input('Digite o ano de seu nascimento: ')
+idade = int(input('Idade: '))
+peso = int(input('Peso: '))
+altura = float(input('Altura: '))
+ano = int(input('Ano de nascimento: '))
 
 '''
 Cálculo IMC
 '''
 
-imc = str(peso) / (str(altura) * str(altura))
+imc = peso / (altura * altura)
 
 '''
 Verificar se o ano é bisexto e idade é múltiplo de 7
